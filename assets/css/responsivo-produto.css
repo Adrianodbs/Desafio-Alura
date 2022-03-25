@@ -1,0 +1,48 @@
+/* Primeira seção */
+
+@media screen and (max-width: 768px) {
+  .produto-content {
+    width: 768px;
+    height: 221px;
+    align-items: center;
+  }
+
+  .produto-content img {
+    width: 254px;
+    height: 154px;
+    margin-top: 0;
+  }
+
+  .produto-texto {
+    width: 434px;
+    height: 157px;
+  }
+
+  .produto-texto h1 {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    margin-bottom: 5px;
+  }
+
+  #produto-texto-span {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+  }
+
+  .produto-texto p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    margin-top: 14px;
+  }
+}
+
+/* Produtos similares */
+
+@media screen and (max-width: 768px) {
+  .produtos-similares {
+    width: 100%;
+  }
+}
