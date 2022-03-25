@@ -1,0 +1,89 @@
+.formulario{
+    width: 100%;
+    height: 368px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #EAF2FD;
+    padding: 75px 130px;
+    margin-top: 40px;
+
+}
+
+.formulario img{
+    width: 176px;
+    height: 50px;
+    align-items: flex-start;
+}
+
+.lista{
+    padding: 0 50px;
+}
+
+.lista li{
+    list-style-type: none;
+    margin-bottom: 20.5px;
+    
+}
+
+.lista a{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #464646;
+}
+
+.lista_input{
+    display: flex;
+    flex-direction: column;
+}
+
+.lista_input p{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    margin-bottom: 10px;
+    align-items: flex-start;
+    color: #464646;
+}
+
+.logo-link{
+    display: flex;
+}
+
+.input_nome{
+    width: 560px;
+    height: 56px;
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.input_nome::placeholder{
+    color: #A2A2A2;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+
+    text-align: top;
+
+   
+}
+
+
+.input_mensagem{
+    width: 560px;
+    height: 82px;
+    margin-bottom: 10px;
+
+}
+
+.lista_input button{
+    width: 165px;
+    height: 51px;
+    background-color: #2A7AE4;
+    border: none;
+    color: #fff;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}

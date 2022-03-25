@@ -1,0 +1,95 @@
+@media screen and (max-width:768px){
+
+    /* cabeçalho */
+    .logo{
+        width: 100px;
+        height: 28px;
+    }
+
+    .pesquisa{
+        width: 272px;
+        height: 28px;
+    }
+
+    header{
+        padding: 16px 32px;
+    }
+
+    .btn-header{
+        width: 166px;
+        height: 40px;
+    }
+
+    /* produtos */
+
+    .primeira{
+        width: 768px;
+        height: 352px;
+    }
+
+    .content-primeira{
+        margin-left: 32px;
+    }
+
+    .card-content, .card-header{
+        margin: 0 32px;
+    }
+
+    #apagar{
+        display: none;
+    }
+
+    /* Footer */
+
+    .footer{
+        width: 768px;
+        height: 364px;
+        justify-content: space-around;
+    }
+
+
+    .logo-link{
+        display: flex;
+        flex-direction: column;
+        width: 254px;
+        height: 300px;
+        margin-right: 102px;
+    }
+
+    .lista{
+        width: 176px;
+        height: 234px;
+        padding: 0;
+    }
+
+
+    .lista_input{
+        width: 434px;
+        height: 229px;
+    }
+
+    .input_nome{
+        width: 434px;
+        height: 56px;
+    }
+
+    .input_mensagem{
+        width: 434px;
+        height: 82px;
+    }
+
+}
+
+@media screen and (max-width:325px) {
+    .barra-pesquisa{
+        display: none;
+    }
+    .pesquisa{
+        width: 50px;
+        background-color: #fff;
+        order: 3;
+    }
+    .btn-header{
+        order: 2;
+    }
+}

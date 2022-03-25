@@ -1,0 +1,57 @@
+main{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    background-color: #F5F5F5;
+}
+
+.sessao-login{
+    display: flex;
+    flex-direction: column;
+    width: 423px;
+    height: 291px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 90px;
+   
+}
+
+.sessao-login h1{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #464646;
+    margin-bottom: 15px;
+}
+
+.sessao-login input{
+    width: 423px;
+    height: 63.13px;
+    margin-bottom: 15px;
+    border: none;
+    outline: 0;
+    display: flex;
+}
+
+.sessao-login button{
+    width: 423px;
+    height: 62px;
+    background: #2A7AE4;
+    border: none;
+
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    text-decoration: none;
+
+    /* Preto/branco */
+
+    color: #FFFFFF;
+
+    margin-bottom: 100px;
+
+    
+}
+

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Adicionar novo produto</title>
+
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/primera_secao.css" />
+    <link rel="stylesheet" href="./assets/css/card_produtos.css" />
+    <link rel="stylesheet" href="./assets/css/formulario.css" />
+    <link rel="stylesheet" href="./assets/css/footer.css" />
+    <link rel="stylesheet" href="./assets/css/responsivo.css" />
+    <link rel="stylesheet" href="./assets/css/adicionar-produto.css" />
+  </head>
+  <body>
+    <!-- Cabeçalho -->
+    <header>
+      <div class="left-header">
+        <img src="./assets/img/Logo.svg" alt="" class="logo" />
+        <div class="pesquisa">
+          <input
+            type="text"
+            class="barra-pesquisa"
+            placeholder="O que deseja encontrar?"
+          />
+          <a href="#"
+            ><img src="./assets/img/lupa.png" alt="" class="lupa" />
+          </a>
+        </div>
+      </div>
+
+      <!-- Botão do cabeçalho -->
+      <div>
+        <button class="btn-header">
+          <a href="home-login.html">Menu administrador</a>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <!-- parte de adicionar produto -->
+      <section class="adicionar-produto">
+        <div>
+          <h1>Adicionar novo produto</h1>
+        </div>
+        <div class="btn-adicionar">
+          <div class="btn-adicionar__img">
+            <img src="./assets/img/adicionar.svg" alt="Adicione uma imagem" />
+            <p>
+              Arraste para adicionar uma <br />
+              imagem para o produto
+            </p>
+          </div>
+          <span>Ou</span>
+          <button>
+            <a href="#">Procure no seu computador</a>
+          </button>
+        </div>
+
+        <!-- Parte do formulário -->
+        <div class="adicionar__formulario">
+          <input type="text" placeholder="Nome do produto" />
+          <input type="text" placeholder="Preço do produto" />
+          <input type="text" placeholder="Descrição do produto" />
+          <button><a href="#">Adicionar produto</a></button>
+        </div>
+      </section>
+
+      <!-- Lista de link e Fale conosco -->
+      <section class="footer">
+        <div class="formulario">
+          <div class="logo-link">
+            <div>
+              <img src="./assets/img/Logo.svg" alt="" />
+            </div>
+
+            <div class="lista">
+              <ul>
+                <li><a href="#">Quem somos nós</a></li>
+                <li><a href="#">Política de privacidade</a></li>
+                <li><a href="#">Programa fidelidade</a></li>
+                <li><a href="#">Nossas lojas</a></li>
+                <li><a href="#">Quero ser franqueado</a></li>
+                <li><a href="#">Anuncie aqui</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="lista_input">
+            <p>Fale conosco</p>
+            <input type="text" placeholder="Nome" class="input_nome" />
+            <input
+              type="text"
+              placeholder="Escreva sua mensagem"
+              class="input_mensagem"
+            />
+            <button>Enviar mensagem</button>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>
+        Desenvolvido por Adriano Alves <br />
+        2021
+      </p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,18 @@
+.adicionar-produtos-btn {
+  width: 165px;
+  height: 51px;
+  background-color: #2a7ae4;
+  border: none;
+}
+
+.adicionar-produtos-btn a {
+  color: #fff;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-decoration: none;
+}
+
+.card-header {
+  margin-bottom: 16px;
+}
