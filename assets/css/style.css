@@ -4,9 +4,10 @@
 @import url(./produtos.css);
 @import url(./fale-conosco.css);
 @import url(./rodape.css);
+@import url(./home-login.css);
 
 :root{
-  --cinza-claro: #e5e5e5;
+  --cinza-claro: #eeeded;
   --cinza-escuro: #A2A2A2;
   --azul: #2A7AE4;
   --marrom: #464646;

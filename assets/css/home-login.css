@@ -1,0 +1,49 @@
+.sessao-login{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 90px;
+  background-color: var(--cinza-claro);
+}
+
+.sessao-login h1{
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.sessao-login input{
+  border: none;
+  margin: 10px;
+  padding: 10px;
+  width: 30%;
+  height: 50px;
+}
+
+.sessao-login button {
+  width: 30%;
+  height: 50px;
+  border: none;
+  background-color: var(--azul);
+  color: #fff;
+}
+
+@media screen and (max-width:800px){
+  .sessao-login{
+    padding: 60px;
+  }
+
+  .sessao-login input, .sessao-login button{
+    width: 50%;
+  }
+}
+
+@media screen and (max-width:500px){
+  .sessao-login{
+    padding: 60px 0;
+  }
+
+  .sessao-login input, .sessao-login button{
+    width: 90%;
+  }
+}
