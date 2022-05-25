@@ -1,0 +1,75 @@
+.secao-produtos{
+  margin: 65px 150px;
+}
+
+.produto__linha{
+  margin-bottom: 50px;
+}
+
+.card-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.card-header a{
+  text-decoration: none;
+  color: var(--azul);
+  margin-right: 10px;
+}
+
+.card-content{
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-content div{
+  display: flex;
+  flex-direction: column;
+}
+
+
+.card-content img {
+  width: 150px;
+}
+
+.card-content p {
+  margin-top: 10px;
+  color: var(--marrom);
+  width: 150px;
+}
+
+.card-content span{
+  color: var(--marrom);
+  font-weight: 700;
+}
+
+.card-content a{
+  text-decoration: none;
+  color: var(--azul);
+  font-weight: bold;
+  font-size: 14px;
+}
+
+/* Responsivo */
+
+@media screen and (max-width:1100px){
+  .secao-produtos{
+    margin: 65px;
+  }
+
+  .card-content img {
+    width: 120px;
+  }
+}
+
+@media screen and (max-width:900px){
+  .card-content .apagar{
+    display: none;
+  }
+
+  .card-content{
+    flex-wrap: wrap;
+  }
+}

@@ -1,11 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;500;600;700;900&display=swap');
 @import url(./header.css);
 @import url(./primeira-sec.css);
+@import url(./produtos.css);
 
 :root{
   --cinza-claro: #F5F5F5;
   --cinza-escuro: #A2A2A2;
   --azul: #2A7AE4;
+  --marrom: #464646;
 }
 
 *{
@@ -13,4 +15,8 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Raleway', sans-serif;
+}
+
+body{
+  width: 100%;
 }
