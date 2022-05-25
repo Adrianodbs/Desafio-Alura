@@ -6,6 +6,7 @@
 @import url(./rodape.css);
 @import url(./home-login.css);
 @import url(./todos-produtos.css);
+@import url(./produto-unico.css);
 
 :root{
   --cinza-claro: #eeeded;
