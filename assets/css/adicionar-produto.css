@@ -1,0 +1,76 @@
+.adicionar-produto{
+  background-color: var(--cinza-claro);
+  padding: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.btn-adicionar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+  padding: 40px;
+  background-color: #fdfdfd;
+  margin: 15px;
+  border-radius: 8px;
+}
+
+.btn-adicionar__img{
+  cursor: pointer;
+}
+
+.btn-adicionar button {
+  border: none;
+  background-color: transparent;
+}
+
+.btn-adicionar a{
+  text-decoration: none;
+}
+
+.adicionar__formulario{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.adicionar__formulario input{
+  margin-bottom: 10px;
+  width: 600px;
+  height: 40px;
+  padding-left: 20px;
+  border: none;
+}
+
+.adicionar__formulario button{
+  width: 600px;
+  height: 40px;
+  border: none;
+  background-color: var(--azul);
+}
+
+.adicionar__formulario a{
+  color: #fff;
+  text-decoration: none;
+}
+
+@media screen and (max-width:650px){
+  .adicionar__formulario input, .adicionar__formulario button{
+    width: 400px;
+  }
+}
+
+@media screen and (max-width:510px){
+  .adicionar-produto{
+    padding: 20px;
+  }
+  
+  .adicionar__formulario input, .adicionar__formulario button{
+    width: 300px;
+  }
+}
